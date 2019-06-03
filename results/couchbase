@@ -1,0 +1,36 @@
+
+BenchmarkInsert1/mongodb-4         	    2000	   1011495 ns/op
+BenchmarkInsert1/arango-rock-4     	    1000	   1404635 ns/op
+BenchmarkInsert1/arango-mm-4       	    2000	    946118 ns/op
+BenchmarkInsert1/postgres-4        	    1000	   2075741 ns/op
+BenchmarkInsert1/mysql-4           	     500	   4520104 ns/op
+BenchmarkInsert1/couchbase-4       	    1000	   1704566 ns/op
+BenchmarkInsert100/mongodb-4       	      10	 151374723 ns/op
+BenchmarkInsert100/arango-rock-4   	      10	 154742096 ns/op
+BenchmarkInsert100/arango-mm-4     	      10	 129288723 ns/op
+BenchmarkInsert100/postgres-4      	       5	 268265396 ns/op
+BenchmarkInsert100/mysql-4         	       2	 684727291 ns/op
+BenchmarkInsert100/couchbase-4     	      10	 169991136 ns/op
+BenchmarkGet/mongodb-100-4         	    1000	   1982485 ns/op
+BenchmarkGet/mongodb-500-4         	    1000	   1495160 ns/op
+BenchmarkGet/mongodb-1000-4        	    1000	   1837710 ns/op
+BenchmarkGet/arango-rock-100-4     	    1000	   1580840 ns/op
+BenchmarkGet/arango-rock-500-4     	    1000	   1323312 ns/op
+BenchmarkGet/arango-rock-1000-4    	    1000	   1193853 ns/op
+BenchmarkGet/arango-mm-100-4       	    1000	   1426745 ns/op
+BenchmarkGet/arango-mm-500-4       	    1000	   1249446 ns/op
+BenchmarkGet/arango-mm-1000-4      	    1000	   1195337 ns/op
+BenchmarkGet/postgres-100-4        	     500	   3362275 ns/op
+BenchmarkGet/postgres-500-4        	     500	   2955253 ns/op
+BenchmarkGet/postgres-1000-4       	     500	   3436775 ns/op
+BenchmarkGet/mysql-100-4           	    1000	   1619677 ns/op
+BenchmarkGet/mysql-500-4           	    1000	   2094555 ns/op
+BenchmarkGet/mysql-1000-4          	    1000	   1692316 ns/op
+BenchmarkGet/couchbase-100-4       	     100	  10002598 ns/op
+BenchmarkGet/couchbase-500-4       	     100	  16911945 ns/op
+BenchmarkGet/couchbase-1000-4      	{"level":"error","type":"couchbase","error":"[5000]  Indexer rollback from [127.0.0.1:9101] - cause:  Indexer rollback from [127.0.0.1:9101]","time":"2019-06-03T06:10:18+07:00","message":"get definition"}
+{"level":"error","type":"couchbase","error":"[5000]  Indexer rollback from [127.0.0.1:9101] - cause:  Indexer rollback from [127.0.0.1:9101]","time":"2019-06-03T06:10:18+07:00","message":"get definition"}
+{"level":"error","type":"couchbase","error":"[5000]  Indexer rollback from [127.0.0.1:9101] - cause:  Indexer rollback from [127.0.0.1:9101]","time":"2019-06-03T06:10:18+07:00","message":"get definition"}
+{"level":"error","type":"couchbase","error":"[5000]  Indexer rollback from [127.0.0.1:9101] - cause:  Indexer rollback from [127.0.0.1:9101]","time":"2019-06-03T06:10:18+07:00","message":"get definition"}
+{"level":"error","type":"couchbase","error":"[5000]  Indexer rollback from [127.0.0.1:9101] - cause:  Indexer rollback from [127.0.0.1:9101]","time":"2019-06-03T06:10:18+07:00","message":"get definition"}
+panic: runtime error: index out of range
